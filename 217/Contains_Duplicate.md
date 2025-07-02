@@ -7,7 +7,7 @@
 - You need to check if any number appears more than once.
 
 - 👉 If any number repeats, return true.
-- 👉 If all numbers are different, return false
+- 👉 If all numbers are different, return false 
 
 🧠 Example:
 ```java
