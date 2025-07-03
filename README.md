@@ -5,3 +5,5 @@
 #### 1. Two Sum
 #### 121. Buy and sell stock
 #### 217.Contains Duplicate
+#### 242.Valid Anagram
+#### 9. Palindrome Number
