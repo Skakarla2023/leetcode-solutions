@@ -13,7 +13,8 @@ public class Buy_and_sell_stock_I
 			if (price[i] < bestBuy) 
 			{
 				bestBuy = Math.min(bestBuy, price[i]);
-			} else 
+			} 
+			else 
 			{
 				profit = price[i] - bestBuy;
 				max_profit = Math.max(max_profit, profit);
