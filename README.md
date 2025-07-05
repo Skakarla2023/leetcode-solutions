@@ -7,3 +7,4 @@
 #### 217.Contains Duplicate
 #### 242.Valid Anagram
 #### 9. Palindrome Number
+#### 206. Move Zeroes
