@@ -9,3 +9,4 @@
 #### 9. Palindrome Number
 #### 206. Move Zeroes
 #### 14. Longest common prefix
+#### 66.Plus One
