@@ -11,3 +11,5 @@
 #### 14. Longest common prefix
 #### 66.Plus One
 #### 4.Median of 2 sorted arrays
+#### 27.Remove element
+#### 35.Insert Position
