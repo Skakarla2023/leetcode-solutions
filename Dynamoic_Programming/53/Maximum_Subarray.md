@@ -1,3 +1,20 @@
+# 53. Maximum Subarray Sum
+
+- Subarray refers to continuos part of any given array.
+- Subarrays can be any length.
+- for example observe the following array:
+
+```
+[1,2,3,4,5]
+```
+- the subarrays of the above array are:
+  - length1: 1,2,3,4,5
+  - length2: 12,23,34,45
+  - length3: 123,234,345
+  - length4: 1234,2345
+  - length5: 12345
+ 
+
 ### Subarray Sum
 
 - The sum of the elements of such a part of the array is called subarray sum.
