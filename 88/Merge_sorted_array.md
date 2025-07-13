@@ -1,7 +1,5 @@
 # 🧩 Merge Sorted Array - Simple Explanation
 
-
-
 You are given two **sorted arrays**:
 
 - `nums1`, of size `m + n`, where:
