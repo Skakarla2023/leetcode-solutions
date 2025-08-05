@@ -9,7 +9,7 @@ A pivot index is the position in an array where the sum of all elements to the l
 ```ini
 nums = [1, 7, 3, 6, 5, 6]
 At index 3 (value 6):
-```
+```   
 
 - Sum of elements to the left = 1 + 7 + 3 = 11
 - Sum of elements to the right = 5 + 6 = 11
