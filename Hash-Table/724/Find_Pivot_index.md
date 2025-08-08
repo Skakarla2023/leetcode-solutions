@@ -12,7 +12,7 @@ At index 3 (value 6):
 ```   
 
 - Sum of elements to the left = 1 + 7 + 3 = 11
-- Sum of elements to the right = 5 + 6 = 11
+- Sum of elements to the right = 5 + 6 = 11 
 - Since both sides are equal, index 3 is the pivot index.
 
 
