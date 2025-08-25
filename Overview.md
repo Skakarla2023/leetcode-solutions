@@ -5,7 +5,7 @@ This repo contains folders for common **Data Structures and Algorithms (DSA)** t
 ---
 
 ## 📁 Arrays
-Arrays are lists of items (numbers, strings, etc.) stored in a row.
+Arrays are lists of items (numbers, strings, etc.) stored in a row.  
 
 🔹 Loop through elements  
 🔹 Modify or find specific values
