@@ -1,5 +1,78 @@
 # 📝 LeetCode Solutions  
 
+![Java](https://img.shields.io/badge/Language-Java-blue?logo=java)  
+![Python](https://img.shields.io/badge/Language-Python-yellow?logo=python)  
+![Repo Size](https://img.shields.io/github/repo-size/Skakarla2023/leetcode-solutions)  
+![Last Commit](https://img.shields.io/github/last-commit/Skakarla2023/leetcode-solutions)  
+
+This repository contains my solutions to selected **LeetCode problems**, organized by topic for easy navigation.  
+It is part of my **DSA interview preparation journey**.  
+
+---
+
+## 📂 Repository Structure  
+
+```
+leetcode-solutions/
+├── Arrays/
+├── Strings/
+├── Hash-Table/
+├── Prefix-sum/
+├── Sorting/
+├── Two_Pointers/
+├── Dynamic_Programming/
+├── Greedy/
+├── Tree/
+├── Graph (DFSorBFS)/
+├── Overview.md
+└── README.md
+```
+
+---
+
+## ✅ Features  
+- Categorized solutions for better practice.  
+- Clean and readable code with explanations.  
+- Covers **100+ essential problems** across major DSA topics.  
+- Helpful for **coding interviews** and **competitive programming**.  
+
+---
+
+## 🚀 How to Use  
+1. Navigate to the topic folder (e.g., `Arrays/`).  
+2. Open the problem file you want to study.  
+3. Each file includes:  
+   - Problem link (LeetCode)  
+   - Approach/logic explanation  
+   - Final solution code  
+
+---
+
+## 🛠️ Tech Stack  
+- **Languages:** Java (primary), Python (optional)  
+- **Topics:** Arrays, Strings, Hash-Table, DP, Graphs, Trees, Linked Lists, Recursion  
+
+---
+
+## 🤝 Contributions  
+This is primarily my personal learning repo, but contributions are welcome!  
+- Fork the repo  
+- Add new solutions or improve explanations  
+- Submit a Pull Request  
+
+---
+
+## 📜 License  
+This repository is licensed under the **MIT License**.  
+You are free to use the code for learning purposes.  
+
+---
+
+⭐ If you find this helpful, consider giving the repo a **star**!
+
+
+# 📝 LeetCode Solutions  
+
 This repository contains my solutions to selected **LeetCode problems**, organized by topic for easy navigation.  
 It is part of my **DSA interview preparation journey** .
 ---
