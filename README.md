@@ -1,6 +1,6 @@
 # 📝 LeetCode Solutions  
 
-![Java](https://img.shields.io/badge/Language-Java-blue?logo=java) ![Python](https://img.shields.io/badge/Language-Python-yellow?logo=python) ![Repo Size](https://img.shields.io/github/repo-size/Skakarla2023/leetcode-solutions) ![Last Commit](https://img.shields.io/github/last-commit/Skakarla2023/leetcode-solutions)  
+![Java](https://img.shields.io/badge/Language-Java-blue?logo=java) ![Repo Size](https://img.shields.io/github/repo-size/Skakarla2023/leetcode-solutions) ![Last Commit](https://img.shields.io/github/last-commit/Skakarla2023/leetcode-solutions)  
 
 This repository contains my solutions to selected **LeetCode problems**, organized by topic for easy navigation.  
 It is part of my **DSA interview preparation journey**.  
