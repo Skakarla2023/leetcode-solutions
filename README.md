@@ -13,7 +13,6 @@ It is part of my focused **Interview Preparation Journey**, where I aim to maste
 ```
 leetcode-solutions/
 ├── Two_Pointers/
-├── Arrays/
 ├── Sliding_Window/
 ├── Binary_Search/
 ├── Prefix_Sum/
