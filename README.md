@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Language-Java-blue?logo=java)  ![Repo Size](https://img.shields.io/github/repo-size/Skakarla2023/leetcode-solutions)  ![Last Commit](https://img.shields.io/github/last-commit/Skakarla2023/leetcode-solutions)  
 
 This repository contains my solutions to selected **LeetCode problems**, organized by core **problem-solving patterns** for structured DSA preparation.
-
+   
 It is part of my focused **Interview Preparation Journey**, where I aim to master fundamental algorithmic thinking patterns rather than just solving random problems.
 
 ---
