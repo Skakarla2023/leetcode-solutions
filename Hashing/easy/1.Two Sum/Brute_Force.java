@@ -1,3 +1,6 @@
+// Brute Force - O(n^2) time | space : O(1)
+// not optimal : nested loops check every pair
+
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
