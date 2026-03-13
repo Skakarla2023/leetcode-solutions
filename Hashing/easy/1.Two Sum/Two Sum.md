@@ -8,7 +8,7 @@
 
 **Date Solved:** 2026-03-12
 
-**Attempts before solving:** 1
+**Attempts before solving:** 2
 
 ---
 
