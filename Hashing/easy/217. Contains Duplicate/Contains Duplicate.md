@@ -2,7 +2,7 @@
 
 **Link** : https://leetcode.com/problems/contains-duplicate/
 
-**Difficulty:** Easy
+**Difficulty:** Easy 
 
 **Topic:** Arrays & Hashing
 
