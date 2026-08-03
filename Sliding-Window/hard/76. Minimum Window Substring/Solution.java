@@ -1,36 +1,57 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class Solution {
-    public int[] maxSlidingWindow(int[] nums, int k) {
-        int n = nums.length;
-        if (k == 1) {
-            return nums;
+    public String minWindow(String s, String t) {
+        int[] freq = new int[128];
+        int[] curr = new int[128];
+
+        if (s.length() < t.length()) {
+            return "";
         }
 
-        int size = n - k + 1;
-        int[] maxValues = new int[size];
-        int ind = 0;
+        for (int i = 0; i < t.length(); i++) {
+            freq[t.charAt(i)]++;
+        }
 
-        Deque<Integer> deque = new ArrayDeque<>();
-
-        for (int i = 0; i < n; i++) {
-
-            if (!deque.isEmpty() && deque.peekFirst() < i - k + 1) {
-                deque.pollFirst();
-            }
-
-            while (!deque.isEmpty() && nums[deque.peekLast()] <= nums[i]) {
-                deque.pollLast();
-            }
-
-            deque.offerLast(i);
-
-            if (i >= k - 1) {
-                maxValues[ind++] = nums[deque.peekFirst()];
+        int need = 0;
+        for (int count : freq) {
+            if (count > 0) {
+                need++;
             }
         }
 
-        return maxValues;
+        int have = 0;
+        int size = 0;
+        int minSize = Integer.MAX_VALUE;
+        String ans = "";
+        int left = 0;
+        int startIdx = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            char rchar = s.charAt(right);
+            curr[rchar]++;
+
+            if (freq[rchar] > 0 && curr[rchar] == freq[rchar]) {
+                have++;
+            }
+
+            while (have == need) {
+                size = right - left + 1;
+
+                if (size < minSize) {
+                    minSize = size;
+                    startIdx = left;
+                }
+
+                char lchar = s.charAt(left);
+                if (freq[lchar] > 0 && curr[lchar] == freq[lchar]) {
+                    have--;
+                }
+
+                curr[lchar]--;
+                left++;
+            }
+
+        }
+
+        return minSize == Integer.MAX_VALUE ? "" : s.substring(startIdx, startIdx + minSize);
     }
 }
